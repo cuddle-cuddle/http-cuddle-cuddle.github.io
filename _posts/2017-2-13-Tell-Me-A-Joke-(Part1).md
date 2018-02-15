@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "NLP: Short Sentence comparison techniques OR: Tell me a joke! (Part 1: getting the data)"
+title: "NLP: Short Sentence comparison techniques OR: Tell me a joke! (Part 1: scraping twitter)"
 ---
 
 Okay, so, Start of the problem is simple. I want an AI such that when I say, "Tell me a joke about nails!" I'd like to have some reasonable answers back about either Jesus or manicures.
