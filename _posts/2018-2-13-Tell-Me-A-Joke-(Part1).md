@@ -2,7 +2,12 @@
 layout: post
 title: "NLP: Short Sentence comparison techniques OR: Tell me a joke! (Part 1: scraping twitter)"
 ---
-![KidsWriteJokes]({{ site.baseurl }}/images/posts/2018-02-13/kidswritejokes.png)
+[![KidsWriteJokes]({{ site.baseurl }}/images/posts/2018-02-13/kidswritejokes.png)]({{page.url}})
+
+[Jupyter Notebook: ]({{ site.baseurl }}/jupyter/kidswritejokes_blog.ipynb)
+
+[JSON file: ]({{ site.baseurl }}/jupyter/kidswritejokes_tweets.json)
+
 
 Okay, so, Start of the problem is simple. I want an AI such that when I say, "Tell me a joke about nails!" I'd like to have some reasonable answers back about either Jesus or manicures.
 

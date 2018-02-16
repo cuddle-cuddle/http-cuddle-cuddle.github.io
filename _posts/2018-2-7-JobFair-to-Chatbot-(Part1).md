@@ -2,11 +2,11 @@
 layout: post
 title: "NLP: Jobfair2018 to Chatbot: Veni, Vidi, Vici of a terrible website. (Part0: WHO WROTE THIS WEBSITE???)"
 ---
-![Jobfair2018]({{ site.baseurl }}/images/posts/2018-02-07/company_list.png)
+[![Jobfair2018]({{ site.baseurl }}/images/posts/2018-02-07/company_list.png)]({{page.url}})
 
 Seems like a lot of the stuff I'm doing on my blog is scraping and NLp.... Not surprised since I'm looking for an nlp job.
 
-Not no surpised that I'm on this website --- I need a job and my Alma mater is  kind enough to provide a jobfair twice a year. But the website is HORRIBLE. There is no search function for the websites, and the companies are listed alphabetically. [Jobfair 2018](https://www.partners4employment.ca/student-alumni/current-participating-organizations.htm)
+Not no surprised that I'm on this website --- I need a job and my Alma mater is  kind enough to provide a jobfair twice a year. But the website is HORRIBLE. There is no search function for the websites, and the companies are listed alphabetically. [Jobfair 2018](https://www.partners4employment.ca/student-alumni/current-participating-organizations.htm)
 
 --- That's okay. I'm a patient man. I wipe out my favorite tool, wget to get everything and grep for "web dev", "software" or something. Right?
  {% highlight bash %}
@@ -26,4 +26,4 @@ Yep. The entire website navigation is done by a first year co-op student, or aut
 <a href="javascript:void(0);" onclick="orbisApp.buildForm({action : 'displayRegInfo', registrationId : 3266}).submit();"> Accedo </a>
 {% endhighlight %}
 
-Okay, time to do something about it in part1. 
+Okay, time to do something about it in part1.
