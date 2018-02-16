@@ -2,6 +2,7 @@
 layout: post
 title: "NLP: Short Sentence comparison techniques OR: Tell me a joke! (Part 1: scraping twitter)"
 ---
+![KidsWriteJokes]({{ site.baseurl }}/images/posts/2018-02-13/kidswritejokes.png)
 
 Okay, so, Start of the problem is simple. I want an AI such that when I say, "Tell me a joke about nails!" I'd like to have some reasonable answers back about either Jesus or manicures.
 
@@ -31,7 +32,7 @@ TL;DR: `pip install tweepy`
 
 A random sample of the json file reveals this:
 
-![raw jokes dataframe](/images/posts/2017-02-13/sample10.png)
+![raw jokes dataframe](/images/posts/2018-02-13/sample10.png)
 
 You can see features and problems within the data immediately:
 <ul>
@@ -64,10 +65,10 @@ joke_list_list = list(filter(lambda jk:
 
 The result is as desired:
 
-![clean jokes](/images/posts/2017-02-13/jokelistlist.png)
+![clean jokes](/images/posts/2018-02-13/jokelistlist.png)
 
 Which reduces about 3k+ lines of jokes, comments etc. to ~250 Q&A style jokes.
 
 A bigger list (about 200k+) of short jokes are actually available at Kaggle:
 [Kaggle Short Jokes](https://www.kaggle.com/abhinavmoudgil95/short-jokes)
-![kaggle short jokes](/images/posts/2017-02-13/kaggleshortjokes.png)
+![kaggle short jokes](/images/posts/2018-02-13/kaggleshortjokes.png)
